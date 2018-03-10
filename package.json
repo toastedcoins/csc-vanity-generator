@@ -5,7 +5,7 @@
   "author": "Wietse Wind <mail@wietse.com>",
   "private": false,
   "dependencies": {
-    "ripple-lib": "^0.18.1"
+    "casinocoin-libjs": "^0.18.1"
   },
   "engines": {
     "node": ">= 6.0.0",
