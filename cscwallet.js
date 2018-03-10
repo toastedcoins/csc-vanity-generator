@@ -1,9 +1,9 @@
-const rippleLib  = require('ripple-lib').RippleAPI
+const CasinocoinAPI  = require('casinocoin-libjs').CasinocoinAPI
 const api        = new rippleLib()
 const lookFor    = process.argv.slice(2).map(function (f) { return f.toLowerCase().replace(/[^a-zA-Z0-9]/g, '') })
 
-console.log('\x1b[36m%s\x1b[0m', 'XRP Vanity Wallet Generator')
-console.log('\x1b[36m%s\x1b[0m', '   by @WietseWind (Twitter) /u/pepperew (Reddit)')
+console.log('\x1b[36m%s\x1b[0m', 'CSC Vanity Wallet Generator')
+console.log('\x1b[36m%s\x1b[0m', '   by toasted coins forked from @WietseWind (Twitter) /u/pepperew (Reddit)')
 console.log('')
 
 if (lookFor.length > 0) {
