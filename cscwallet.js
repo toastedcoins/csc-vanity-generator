@@ -1,5 +1,5 @@
 const CasinocoinAPI  = require('casinocoin-libjs').CasinocoinAPI
-const api        = new rippleLib()
+const api        = new CasinocoinAPI()
 const lookFor    = process.argv.slice(2).map(function (f) { return f.toLowerCase().replace(/[^a-zA-Z0-9]/g, '') })
 
 console.log('\x1b[36m%s\x1b[0m', 'CSC Vanity Wallet Generator')
